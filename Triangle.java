@@ -74,7 +74,7 @@ public class Triangle {
    */
   public double getArea() {
     // Returning the area of the triangle
-    return area;
+    return this.area;
   }
 
   /**
