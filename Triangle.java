@@ -146,7 +146,7 @@ public class Triangle {
   }
 
   /**
-   * This getter shows the semiperimeter of the triangle.
+   * This method shows the semiperimeter of the triangle.
    */
   public double getSemiperimeter() {
     // Returning the semiperimeter of the triangle
