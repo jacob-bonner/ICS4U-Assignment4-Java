@@ -26,22 +26,22 @@ public class Triangle {
     this.sideLength3 = thirdInput;
 
     // Finding and initializing the first angle
-    this.angle1 = Math.acos((Math.pow(sideLength2, 2) 
-                             + Math.pow(sideLength3, 2) 
-                             - Math.pow(sideLength1, 2)) 
-                             / (2 * sideLength2 * sideLength3));
+    this.angle1 = Math.acos((Math.pow(this.sideLength2, 2) 
+                             + Math.pow(this.sideLength3, 2) 
+                             - Math.pow(this.sideLength1, 2)) 
+                             / (2 * this.sideLength2 * this.sideLength3));
 
     // Finding and initializing the second angle
-    this.angle2 = Math.acos((Math.pow(sideLength3, 2) 
-                             + Math.pow(sideLength1, 2) 
-                             - Math.pow(sideLength2, 2)) 
-                             / (2 * sideLength3 * sideLength1));
+    this.angle2 = Math.acos((Math.pow(this.sideLength3, 2) 
+                             + Math.pow(this.sideLength1, 2) 
+                             - Math.pow(this.sideLength2, 2)) 
+                             / (2 * this.sideLength3 * this.sideLength1));
 
     // Finding and initializing the third angle
-    this.angle3 = Math.acos((Math.pow(sideLength1, 2) 
-                             + Math.pow(sideLength2, 2) 
-                             - Math.pow(sideLength3, 2)) 
-                             / (2 * sideLength1 * sideLength2));
+    this.angle3 = Math.acos((Math.pow(this.sideLength1, 2) 
+                             + Math.pow(this.sideLength2, 2) 
+                             - Math.pow(this.sideLength3, 2)) 
+                             / (2 * this.sideLength1 * this.sideLength2));
 
     // Finding and initializing the semiperimeter of the triangle
     this.semiPerimeter = (this.sideLength1 + this.sideLength2 
